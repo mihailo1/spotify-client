@@ -1,0 +1,17 @@
+{
+  "name": "react-test",
+  "version": "1.0.0",
+  "description": "Gorilla React test project with Spotify API",
+  "author": "Gorilla",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "start:server": "cd server/authorization_code && node app",
+    "start:client": "cd client && yarn start",
+    "storybook": "cd client && yarn storybook"
+  }
+}
